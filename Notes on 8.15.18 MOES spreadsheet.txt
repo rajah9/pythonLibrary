@@ -1,0 +1,10 @@
+Data cleanup:
+Working on "Completed Surveys" worksheet. 
+761495a9-0691-47e7-864f-ea3a2190c2c2 had a number of 4's overwriting demographics. Copied from previous line.
+75ff4d82-32dd-4678-b4f3-d736055023d5 had a number of 3's overwriting demographics. Copied from previous line.
+f1d2f04e-b9c6-4fda-8b42-39d6ae3dc14c had a number of 2's and 3's overwriting demographics. Copied from previous line.
+
+Inserted a column index with the original order. 
+Added a new row with Pandas friendly names
+Changed the delta columns AB and AN to remove the merge (now 1 per ID).
+Added a column decade_age with "0" for empty or "1" for 18-24, "2" for 25-34, etc. 
